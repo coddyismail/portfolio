@@ -1,4 +1,4 @@
-import '../css/globals.css';
+
 import { useState, useEffect } from 'react';
 import Footer from '../component/Footer';
 import Head from 'next/head';
