@@ -1,0 +1,15 @@
+/* components/Footer.module.css */
+.copyrightFooter {
+  text-align: center;
+  padding: 20px;
+ background-color: #030011;;
+  color: white;
+  font-family: 'Arial', sans-serif;
+  margin-top: auto;
+  /* border-top: 1px solid #e9ecef; */
+}
+
+.copyrightFooter p {
+  margin: 0;
+  font-size: 14px;
+}
