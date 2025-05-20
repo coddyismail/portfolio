@@ -204,7 +204,7 @@ export default function Home() {
           </div>
           <div className="hero-image">
             <img
-              src="coderismail.png"
+              src="person.jpg"
               alt="Ismail"
               className="profile-image"
             />
@@ -361,7 +361,7 @@ export default function Home() {
           </div>
   <ToastContainer position="top-right" autoClose={3000} />
           <div className="contact-info">
-            <p>📞 +91 9405227703</p>
+         
             <p>📧 <a href="mailto:coderismail@proton.com">Mail ME</a></p>
             <p>🏠 Pune | India</p>
           </div>
