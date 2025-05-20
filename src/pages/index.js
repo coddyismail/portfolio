@@ -2,6 +2,7 @@
 import { useState, useEffect } from 'react';
 import Footer from '../component/Footer';
 import Head from 'next/head';
+import { FaTelegramPlane } from 'react-icons/fa';
 import { motion } from "framer-motion";
 import { Typewriter } from 'react-simple-typewriter';
 import { ToastContainer, toast } from 'react-toastify';
@@ -376,6 +377,9 @@ export default function Home() {
             <a className='reddit' href="https://www.reddit.com/user/coder_ismail" target="_blank" rel="noopener noreferrer" aria-label="Reddit">
               <FaReddit />
             </a>
+             <a href="https://t.me/coder_ismail" target="_blank" rel="noopener noreferrer">
+          <FaTelegramPlane className="social-icon" />
+        </a>
           </div>
         </section>
         <Footer />
