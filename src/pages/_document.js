@@ -4,10 +4,10 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
-        <link rel="icon" href="/coderismail-main.png" />
+        <link rel="icon" href="/ismail_pfp-modified.png" />
         <meta name="theme-color" content="#000000" />
         <meta name="description" content="Ismail's Portfolio Website" />
-        {/* You can add more meta tags here if needed */}
+        {/* Hey! What Are you Doin here?? */}
       </Head>
       <body>
         <Main />

@@ -1,15 +1,17 @@
-import '../css/globals.css';
+
 import { useState, useEffect } from 'react';
 import Footer from '../component/Footer';
 import Head from 'next/head';
+import { FaTelegramPlane } from 'react-icons/fa';
 import { motion } from "framer-motion";
 import { Typewriter } from 'react-simple-typewriter';
 import { ToastContainer, toast } from 'react-toastify';
+import { TbBrandDatabricks } from "react-icons/tb";
 import 'react-toastify/dist/ReactToastify.css';
 
 import {
-  FaReact, FaNodeJs, FaHtml5, FaCss3Alt, FaJs, FaCode,
-  FaPalette, FaInstagram, FaGithub, FaReddit, FaGit,
+  FaReact, FaNodeJs, FaHtml5, FaCss3Alt, FaPython, FaStar, FaDatabase, FaJs, FaCode,
+  FaPalette, FaInstagram, FaGithub, FaReddit, FaGit, 
 } from 'react-icons/fa';
 import {
   SiMongodb, SiTypescript, SiExpress, SiTailwindcss
@@ -204,7 +206,7 @@ export default function Home() {
           </div>
           <div className="hero-image">
             <img
-              src="coderismail.png"
+              src="ismail_pfp.jpg"
               alt="Ismail"
               className="profile-image"
             />
@@ -258,7 +260,18 @@ export default function Home() {
                 <li><SlMagicWand className="skill-icon" /> Visual Effects</li>
               </ul>
             </div>
-
+{/* Data Engineer */}
+            <div className="skill-category">
+              <h3 className="skill-heading">
+                <TbBrandDatabricks className="skill-icon" /> Data Engineer
+              </h3>
+              <ul className="skill-list">
+                <li><FaPython className="skill-icon" /> Python</li>
+                <li><FaStar className="skill-icon" /> PySpark</li>
+                <li><FaDatabase className="skill-icon" /> SQl</li>
+                {/* <li><FaLogo className="skill-icon" /> SQL</li> */}
+              </ul>
+            </div>
             {/* Graphic Design Column */}
             <div className="skill-category">
               <h3 className="skill-heading">
@@ -271,6 +284,11 @@ export default function Home() {
               </ul>
             </div>
           </div>
+
+           
+          {/* </div> */}
+
+          
           {/* version Control  */}
             <div className="skill-category">
               <h3 className="skill-heading">
@@ -282,6 +300,8 @@ export default function Home() {
                 
               </ul>
             </div>
+
+            
           <p className="skills-mindset">
             <strong>Startup Mindset:</strong> I focus on self-learning and building things from the ground up.
           </p>
@@ -361,7 +381,7 @@ export default function Home() {
           </div>
   <ToastContainer position="top-right" autoClose={3000} />
           <div className="contact-info">
-            <p>📞 +91 9405227703</p>
+         
             <p>📧 <a href="mailto:coderismail@proton.com">Mail ME</a></p>
             <p>🏠 Pune | India</p>
           </div>
@@ -376,6 +396,9 @@ export default function Home() {
             <a className='reddit' href="https://www.reddit.com/user/coder_ismail" target="_blank" rel="noopener noreferrer" aria-label="Reddit">
               <FaReddit />
             </a>
+             <a href="https://t.me/coder_ismail" target="_blank" rel="noopener noreferrer">
+          <FaTelegramPlane className="social-icon" />
+        </a>
           </div>
         </section>
         <Footer />

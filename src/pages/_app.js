@@ -1,6 +1,7 @@
 // pages/_app.js
 
-import '../src/css/globals.css'; // <-- Move the import here
+import '../css/globals.css'; // ✅ CORRECT
+
 
 function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />;

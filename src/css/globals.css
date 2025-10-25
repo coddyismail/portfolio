@@ -1,4 +1,4 @@
-/* Base Styles */
+
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
 :root {
   --primary-color: #3a86ff;
@@ -526,7 +526,7 @@ body.dark{
   align-items: center;
   padding: 1rem;
   position: relative;
-  background-color: ;
+  /* background-color: ; */
   /* z-index: 1000; */
 }
 
