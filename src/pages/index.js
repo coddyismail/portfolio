@@ -184,6 +184,7 @@ export default function Home() {
                   'Graphic Designer',
                   'Content Creator',
                   'Freelancer',
+                  'Data Engineer',
                 ]}
                 loop={0} // 0 = infinite
                 cursor
@@ -393,9 +394,7 @@ export default function Home() {
             <a className='git' href="https://github.com/coddyismail" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
               <FaGithub />
             </a>
-            <a className='reddit' href="https://www.reddit.com/user/coder_ismail" target="_blank" rel="noopener noreferrer" aria-label="Reddit">
-              <FaReddit />
-            </a>
+            
              <a href="https://t.me/coder_ismail" target="_blank" rel="noopener noreferrer">
           <FaTelegramPlane className="social-icon" />
         </a>
