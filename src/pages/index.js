@@ -207,7 +207,7 @@ export default function Home() {
           </div>
           <div className="hero-image">
             <img
-              src="image.png"
+              src="IMG_20251228_104433_860.jpg"
               alt="Ismail"
               className="profile-image"
             />
