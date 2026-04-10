@@ -79,7 +79,7 @@ export default function Poster() {
                   5,000 <span className={styles.priceAccent}>—</span> 20,000
                 </div>
                 <div className={styles.priceNote}>
-                  PKR · Final price depends on scope &amp; requirements
+                  INR · Final price depends on scope &amp; requirements
                 </div>
               </div>
             </div>
