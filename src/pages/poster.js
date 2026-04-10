@@ -138,7 +138,7 @@ export default function Poster() {
             </div>
             <div className={styles.ctaBlock}>
               <div className={styles.ctaLabel}>Reach out now</div>
-              <div className={styles.ctaAction}><a href="https://wa.me/+919405227703" >DM TO CLAIM YOUR SLOT →</a></div>
+              <div className={styles.ctaAction}><a style="color: grey;" href="https://wa.me/+919405227703" >TAP TO CLAIM YOUR SLOT →</a></div>
             </div>
           </div>
 
