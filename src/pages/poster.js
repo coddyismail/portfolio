@@ -1,5 +1,5 @@
 import Head from "next/head";
-import styles from "../styles/Poster.module.css";
+import styles from "../css/Poster.module.css";
 
 export default function Poster() {
   return (
